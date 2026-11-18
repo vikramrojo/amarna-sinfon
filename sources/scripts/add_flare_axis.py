@@ -28,6 +28,9 @@ AXIS_TAG = "FLAR"
 AXIS_MAX = 100
 ID_SUFFIX = "F"
 NAME_SUFFIX = " Flared"
+# Every instance is also exported flared, as a separate static family.
+STATIC_FLARE = 75
+STATIC_FAMILY_SUFFIX = " Glyphic"
 
 # How far each corner of a stroke end moves out, as a fraction of the end's width.
 TERMINAL_OUT = 0.08
@@ -537,8 +540,16 @@ def main():
         extend_location(flared, AXIS_MAX)
         flared_masters.append(flared)
     font["fontMaster"] = base_masters + flared_masters
+    flared_instances = []
     for instance in font["instances"]:
+        flared = copy.deepcopy(instance)
         extend_location(instance, 0)
+        extend_location(flared, STATIC_FLARE)
+        flared.setdefault("customParameters", []).append(
+            {"name": "familyName", "value": font["familyName"] + STATIC_FAMILY_SUFFIX}
+        )
+        flared_instances.append(flared)
+    font["instances"] += flared_instances
     for master_id in masters["all"]:
         if master_id in font.get("kerningLTR", {}):
             font["kerningLTR"][master_id + ID_SUFFIX] = copy.deepcopy(font["kerningLTR"][master_id])

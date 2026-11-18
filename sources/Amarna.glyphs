@@ -396507,6 +396507,469 @@ isItalic = 1;
 linkStyle = Regular;
 name = "Bold Italic";
 weightClass = 700;
+},
+{
+axesValues = (
+100,
+0,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+100,
+1,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isItalic = 1;
+linkStyle = Thin;
+name = "Thin Italic";
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+0,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+200,
+1,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+0,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+300,
+1,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
+weightClass = 300;
+},
+{
+axesValues = (
+425,
+0,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+name = Regular;
+},
+{
+axesValues = (
+425,
+1,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isItalic = 1;
+linkStyle = Regular;
+name = Italic;
+},
+{
+axesValues = (
+500,
+0,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+500,
+1,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+0,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+600,
+1,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
+weightClass = 600;
+},
+{
+axesValues = (
+700,
+0,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+700,
+1,
+75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Flare;
+Location = 75;
+}
+);
+},
+{
+name = familyName;
+value = "Amarna Glyphic";
+}
+);
+isBold = 1;
+isItalic = 1;
+linkStyle = Regular;
+name = "Bold Italic";
+weightClass = 700;
 }
 );
 kerningLTR = {
