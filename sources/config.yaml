@@ -1,13 +1,20 @@
 buildOTF: false
 sources:
-  - Amarna.glyphspackage
+  - Amarna.glyphs
 axisOrder:
+  - FLAR
   - wght
   - ital
 familyName: Amarna
 cleanUp: true
 stat:
-  Amarna[wght].ttf:
+  Amarna[FLAR,wght].ttf:
+  - name: Flare
+    tag: FLAR
+    values:
+    - name: Default
+      value: 0
+      flags: 2
   - name: Weight
     tag: wght
     values:
@@ -34,7 +41,13 @@ stat:
       value: 0
       linkedValue: 1
       flags: 2
-  Amarna-Italic[wght].ttf:
+  Amarna-Italic[FLAR,wght].ttf:
+  - name: Flare
+    tag: FLAR
+    values:
+    - name: Default
+      value: 0
+      flags: 2
   - name: Weight
     tag: wght
     values:

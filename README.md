@@ -11,6 +11,10 @@ Amarna can be built locally by running
 ```gftools builder config.yaml```
 in the `sources` directory of the project.
 
+The builder reads `sources/Amarna.glyphs`, which is generated from `sources/amarna.glyphspackage` and adds the Flare (`FLAR`) axis. After editing the package, regenerate it by running
+```python scripts/add_flare_axis.py```
+in the `sources` directory before building.
+
 ## Contributors
 Amarna was designed by Ishtar van Looy.
 Copyright 2024–2025 Ishtar van Looy (ishvanlooy@gmail.com).
